@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="./main.js" defer ></script>
+</head>
+<body>
+
+    <div class="information">
+        <p id="info" style="color: green;">Stack is empty right now!</p>
+    </div>
+
+    <div class="container">
+        <div class="left__container">
+            <p>A stack is one of the most important data structure in everyday life. A stack is an ordered collection of items where the insertion and deletion of items always occur at the same end.</p>
+            
+            <p>The two main principal operation on stack are Push and Pop.</p>
+            <p>Push: Adds an element to the top of the collection.</p>
+            <p>Pop: Removes the most recent added elements present at the top.</p>
+        </div>
+
+        <div class="main__container">
+            <ul id="stack__list">
+                <!-- <li>First Element</li>         -->
+            </ul>
+        </div>
+
+        <div class="right__container">
+            <div class="push__container">
+                <input id="input__value" type="text" placeholder="Insert Element Here!" maxlength="20">
+                <button id="push__button">Push</button>
+                <p>Push will add the element at the top of the stack.</p>
+            </div>
+
+            <div class="pop__container">
+                <button id="pop__button">Pop</button>
+                <p>Pop will remove the most recent element from top of the stack.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
